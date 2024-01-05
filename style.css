@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body{
+   
+}
+.container {
+    width: 600px;
+    margin: 100px 500px;
+    height: 500px;
+}
+.to__do {
+}
+.to_do__h1{
+    color: #09098c;
+    margin-bottom: 20px;
+}
+.form {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.input {
+    width: 300px;
+    padding: 15px 20px;
+    border: 1px solid goldenrod;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.add__btn {
+    padding: 15px 20px;
+    background-color: #3a5ec7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #fd1d1d;
+    color: white;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+.radio{
+    width: 25px;
+    height: 25px;
+    
+}
